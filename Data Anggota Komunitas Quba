@@ -1,0 +1,12 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+bidang = ['Desain & Editing', 'Sosial Media', 'Menulis Blog', 'IT', 'Kaderisasi']
+anggota = [3, 7, 14, 6, 6]
+plt.figure()
+plt.bar(bidang, anggota, color=['red', 'blue', 'green', 'orange', 'purple'])
+plt.title("Grafik Batang - Anggota Bidang Komunitas Quba")
+plt.xlabel("Bidang")
+plt.ylabel("Anggota")
+plt.show()
